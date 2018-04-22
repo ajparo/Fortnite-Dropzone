@@ -15,6 +15,9 @@
 		B8929C5C208D160600B835EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8929C5A208D160600B835EA /* LaunchScreen.storyboard */; };
 		B8929C67208D160600B835EA /* Fortnite_DropzoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C66208D160600B835EA /* Fortnite_DropzoneTests.swift */; };
 		B8929C72208D160600B835EA /* Fortnite_DropzoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C71208D160600B835EA /* Fortnite_DropzoneUITests.swift */; };
+		B8929C80208D193B00B835EA /* BurbankBigCondensed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B8929C7F208D193B00B835EA /* BurbankBigCondensed-Bold.otf */; };
+		B8929C82208D1D3F00B835EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C81208D1D3F00B835EA /* MainViewController.swift */; };
+		B8929C84208D264A00B835EA /* fortnite-cities.json in Resources */ = {isa = PBXBuildFile; fileRef = B8929C83208D264A00B835EA /* fortnite-cities.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B8929C6D208D160600B835EA /* Fortnite DropzoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortnite DropzoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8929C71208D160600B835EA /* Fortnite_DropzoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortnite_DropzoneUITests.swift; sourceTree = "<group>"; };
 		B8929C73208D160600B835EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8929C7F208D193B00B835EA /* BurbankBigCondensed-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BurbankBigCondensed-Bold.otf"; path = "../../../Downloads/BurbankBigCondensed-Bold.otf"; sourceTree = "<group>"; };
+		B8929C81208D1D3F00B835EA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B8929C83208D264A00B835EA /* fortnite-cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "fortnite-cities.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				B8929C4E208D160600B835EA /* AppDelegate.swift */,
 				B8929C50208D160600B835EA /* ViewController.swift */,
 				B8929C52208D160600B835EA /* Main.storyboard */,
+				B8929C83208D264A00B835EA /* fortnite-cities.json */,
+				B8929C81208D1D3F00B835EA /* MainViewController.swift */,
+				B8929C7F208D193B00B835EA /* BurbankBigCondensed-Bold.otf */,
 				B8929C58208D160600B835EA /* Assets.xcassets */,
 				B8929C5A208D160600B835EA /* LaunchScreen.storyboard */,
 				B8929C5D208D160600B835EA /* Info.plist */,
@@ -238,6 +247,8 @@
 				B8929C5C208D160600B835EA /* LaunchScreen.storyboard in Resources */,
 				B8929C59208D160600B835EA /* Assets.xcassets in Resources */,
 				B8929C54208D160600B835EA /* Main.storyboard in Resources */,
+				B8929C80208D193B00B835EA /* BurbankBigCondensed-Bold.otf in Resources */,
+				B8929C84208D264A00B835EA /* fortnite-cities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,7 @@
 				B8929C57208D160600B835EA /* Fortnite_Dropzone.xcdatamodeld in Sources */,
 				B8929C51208D160600B835EA /* ViewController.swift in Sources */,
 				B8929C4F208D160600B835EA /* AppDelegate.swift in Sources */,
+				B8929C82208D1D3F00B835EA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
