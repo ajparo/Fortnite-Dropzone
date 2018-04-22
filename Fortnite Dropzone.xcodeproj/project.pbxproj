@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8929C4F208D160600B835EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C4E208D160600B835EA /* AppDelegate.swift */; };
+		B8929C51208D160600B835EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C50208D160600B835EA /* ViewController.swift */; };
+		B8929C54208D160600B835EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8929C52208D160600B835EA /* Main.storyboard */; };
+		B8929C57208D160600B835EA /* Fortnite_Dropzone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8929C55208D160600B835EA /* Fortnite_Dropzone.xcdatamodeld */; };
+		B8929C59208D160600B835EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8929C58208D160600B835EA /* Assets.xcassets */; };
+		B8929C5C208D160600B835EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8929C5A208D160600B835EA /* LaunchScreen.storyboard */; };
+		B8929C67208D160600B835EA /* Fortnite_DropzoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C66208D160600B835EA /* Fortnite_DropzoneTests.swift */; };
+		B8929C72208D160600B835EA /* Fortnite_DropzoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C71208D160600B835EA /* Fortnite_DropzoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8929C63208D160600B835EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8929C43208D160600B835EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8929C4A208D160600B835EA;
+			remoteInfo = "Fortnite Dropzone";
+		};
+		B8929C6E208D160600B835EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8929C43208D160600B835EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8929C4A208D160600B835EA;
+			remoteInfo = "Fortnite Dropzone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8929C4B208D160600B835EA /* Fortnite Dropzone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortnite Dropzone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8929C4E208D160600B835EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8929C50208D160600B835EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8929C53208D160600B835EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8929C56208D160600B835EA /* Fortnite_Dropzone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fortnite_Dropzone.xcdatamodel; sourceTree = "<group>"; };
+		B8929C58208D160600B835EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8929C5B208D160600B835EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8929C5D208D160600B835EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8929C62208D160600B835EA /* Fortnite DropzoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortnite DropzoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8929C66208D160600B835EA /* Fortnite_DropzoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortnite_DropzoneTests.swift; sourceTree = "<group>"; };
+		B8929C68208D160600B835EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8929C6D208D160600B835EA /* Fortnite DropzoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortnite DropzoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8929C71208D160600B835EA /* Fortnite_DropzoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortnite_DropzoneUITests.swift; sourceTree = "<group>"; };
+		B8929C73208D160600B835EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8929C48208D160600B835EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8929C5F208D160600B835EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8929C6A208D160600B835EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8929C42208D160600B835EA = {
+			isa = PBXGroup;
+			children = (
+				B8929C4D208D160600B835EA /* Fortnite Dropzone */,
+				B8929C65208D160600B835EA /* Fortnite DropzoneTests */,
+				B8929C70208D160600B835EA /* Fortnite DropzoneUITests */,
+				B8929C4C208D160600B835EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8929C4C208D160600B835EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8929C4B208D160600B835EA /* Fortnite Dropzone.app */,
+				B8929C62208D160600B835EA /* Fortnite DropzoneTests.xctest */,
+				B8929C6D208D160600B835EA /* Fortnite DropzoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8929C4D208D160600B835EA /* Fortnite Dropzone */ = {
+			isa = PBXGroup;
+			children = (
+				B8929C4E208D160600B835EA /* AppDelegate.swift */,
+				B8929C50208D160600B835EA /* ViewController.swift */,
+				B8929C52208D160600B835EA /* Main.storyboard */,
+				B8929C58208D160600B835EA /* Assets.xcassets */,
+				B8929C5A208D160600B835EA /* LaunchScreen.storyboard */,
+				B8929C5D208D160600B835EA /* Info.plist */,
+				B8929C55208D160600B835EA /* Fortnite_Dropzone.xcdatamodeld */,
+			);
+			path = "Fortnite Dropzone";
+			sourceTree = "<group>";
+		};
+		B8929C65208D160600B835EA /* Fortnite DropzoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8929C66208D160600B835EA /* Fortnite_DropzoneTests.swift */,
+				B8929C68208D160600B835EA /* Info.plist */,
+			);
+			path = "Fortnite DropzoneTests";
+			sourceTree = "<group>";
+		};
+		B8929C70208D160600B835EA /* Fortnite DropzoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8929C71208D160600B835EA /* Fortnite_DropzoneUITests.swift */,
+				B8929C73208D160600B835EA /* Info.plist */,
+			);
+			path = "Fortnite DropzoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8929C4A208D160600B835EA /* Fortnite Dropzone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8929C76208D160600B835EA /* Build configuration list for PBXNativeTarget "Fortnite Dropzone" */;
+			buildPhases = (
+				B8929C47208D160600B835EA /* Sources */,
+				B8929C48208D160600B835EA /* Frameworks */,
+				B8929C49208D160600B835EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fortnite Dropzone";
+			productName = "Fortnite Dropzone";
+			productReference = B8929C4B208D160600B835EA /* Fortnite Dropzone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8929C61208D160600B835EA /* Fortnite DropzoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8929C79208D160600B835EA /* Build configuration list for PBXNativeTarget "Fortnite DropzoneTests" */;
+			buildPhases = (
+				B8929C5E208D160600B835EA /* Sources */,
+				B8929C5F208D160600B835EA /* Frameworks */,
+				B8929C60208D160600B835EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8929C64208D160600B835EA /* PBXTargetDependency */,
+			);
+			name = "Fortnite DropzoneTests";
+			productName = "Fortnite DropzoneTests";
+			productReference = B8929C62208D160600B835EA /* Fortnite DropzoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8929C6C208D160600B835EA /* Fortnite DropzoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8929C7C208D160600B835EA /* Build configuration list for PBXNativeTarget "Fortnite DropzoneUITests" */;
+			buildPhases = (
+				B8929C69208D160600B835EA /* Sources */,
+				B8929C6A208D160600B835EA /* Frameworks */,
+				B8929C6B208D160600B835EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8929C6F208D160600B835EA /* PBXTargetDependency */,
+			);
+			name = "Fortnite DropzoneUITests";
+			productName = "Fortnite DropzoneUITests";
+			productReference = B8929C6D208D160600B835EA /* Fortnite DropzoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8929C43208D160600B835EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maloney, Grant P. (MU-Student)";
+				TargetAttributes = {
+					B8929C4A208D160600B835EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B8929C61208D160600B835EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8929C4A208D160600B835EA;
+					};
+					B8929C6C208D160600B835EA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8929C4A208D160600B835EA;
+					};
+				};
+			};
+			buildConfigurationList = B8929C46208D160600B835EA /* Build configuration list for PBXProject "Fortnite Dropzone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8929C42208D160600B835EA;
+			productRefGroup = B8929C4C208D160600B835EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8929C4A208D160600B835EA /* Fortnite Dropzone */,
+				B8929C61208D160600B835EA /* Fortnite DropzoneTests */,
+				B8929C6C208D160600B835EA /* Fortnite DropzoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8929C49208D160600B835EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8929C5C208D160600B835EA /* LaunchScreen.storyboard in Resources */,
+				B8929C59208D160600B835EA /* Assets.xcassets in Resources */,
+				B8929C54208D160600B835EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8929C60208D160600B835EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8929C6B208D160600B835EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8929C47208D160600B835EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8929C57208D160600B835EA /* Fortnite_Dropzone.xcdatamodeld in Sources */,
+				B8929C51208D160600B835EA /* ViewController.swift in Sources */,
+				B8929C4F208D160600B835EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8929C5E208D160600B835EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8929C67208D160600B835EA /* Fortnite_DropzoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8929C69208D160600B835EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8929C72208D160600B835EA /* Fortnite_DropzoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8929C64208D160600B835EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8929C4A208D160600B835EA /* Fortnite Dropzone */;
+			targetProxy = B8929C63208D160600B835EA /* PBXContainerItemProxy */;
+		};
+		B8929C6F208D160600B835EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8929C4A208D160600B835EA /* Fortnite Dropzone */;
+			targetProxy = B8929C6E208D160600B835EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8929C52208D160600B835EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8929C53208D160600B835EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8929C5A208D160600B835EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8929C5B208D160600B835EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8929C74208D160600B835EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8929C75208D160600B835EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8929C77208D160600B835EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortnite Dropzone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-Dropzone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8929C78208D160600B835EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortnite Dropzone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-Dropzone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8929C7A208D160600B835EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortnite DropzoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-DropzoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortnite Dropzone.app/Fortnite Dropzone";
+			};
+			name = Debug;
+		};
+		B8929C7B208D160600B835EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortnite DropzoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-DropzoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fortnite Dropzone.app/Fortnite Dropzone";
+			};
+			name = Release;
+		};
+		B8929C7D208D160600B835EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortnite DropzoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-DropzoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortnite Dropzone";
+			};
+			name = Debug;
+		};
+		B8929C7E208D160600B835EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fortnite DropzoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-DropzoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fortnite Dropzone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8929C46208D160600B835EA /* Build configuration list for PBXProject "Fortnite Dropzone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8929C74208D160600B835EA /* Debug */,
+				B8929C75208D160600B835EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8929C76208D160600B835EA /* Build configuration list for PBXNativeTarget "Fortnite Dropzone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8929C77208D160600B835EA /* Debug */,
+				B8929C78208D160600B835EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8929C79208D160600B835EA /* Build configuration list for PBXNativeTarget "Fortnite DropzoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8929C7A208D160600B835EA /* Debug */,
+				B8929C7B208D160600B835EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8929C7C208D160600B835EA /* Build configuration list for PBXNativeTarget "Fortnite DropzoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8929C7D208D160600B835EA /* Debug */,
+				B8929C7E208D160600B835EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B8929C55208D160600B835EA /* Fortnite_Dropzone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B8929C56208D160600B835EA /* Fortnite_Dropzone.xcdatamodel */,
+			);
+			currentVersion = B8929C56208D160600B835EA /* Fortnite_Dropzone.xcdatamodel */;
+			path = Fortnite_Dropzone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B8929C43208D160600B835EA /* Project object */;
+}
