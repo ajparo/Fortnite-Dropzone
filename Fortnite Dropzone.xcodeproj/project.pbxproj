@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8660A4A208D582500D130F6 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8660A48208D580600D130F6 /* GoogleMobileAds.framework */; };
+		B86886AB208D5693003A27A0 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886A9208D5693003A27A0 /* EventKit.framework */; };
+		B86886AC208D5693003A27A0 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886AA208D5693003A27A0 /* EventKitUI.framework */; };
+		B86886AE208D569A003A27A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886AD208D5699003A27A0 /* AVFoundation.framework */; };
+		B86886B0208D569F003A27A0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886AF208D569F003A27A0 /* AdSupport.framework */; };
+		B86886B2208D56A4003A27A0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886B1208D56A4003A27A0 /* AudioToolbox.framework */; };
+		B86886B4208D56B4003A27A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886B3208D56B4003A27A0 /* CoreGraphics.framework */; };
+		B86886B6208D56BA003A27A0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886B5208D56BA003A27A0 /* CoreTelephony.framework */; };
+		B86886B8208D56C1003A27A0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886B7208D56C1003A27A0 /* CoreMedia.framework */; };
+		B86886BA208D56C7003A27A0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886B9208D56C7003A27A0 /* MessageUI.framework */; };
+		B86886BC208D56CB003A27A0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886BB208D56CB003A27A0 /* StoreKit.framework */; };
+		B86886BE208D56D0003A27A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86886BD208D56D0003A27A0 /* SystemConfiguration.framework */; };
 		B8929C4F208D160600B835EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C4E208D160600B835EA /* AppDelegate.swift */; };
 		B8929C51208D160600B835EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8929C50208D160600B835EA /* ViewController.swift */; };
 		B8929C54208D160600B835EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8929C52208D160600B835EA /* Main.storyboard */; };
@@ -38,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8660A48208D580600D130F6 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.30.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		B86886A9208D5693003A27A0 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		B86886AA208D5693003A27A0 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		B86886AD208D5699003A27A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B86886AF208D569F003A27A0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B86886B1208D56A4003A27A0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B86886B3208D56B4003A27A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B86886B5208D56BA003A27A0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B86886B7208D56C1003A27A0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B86886B9208D56C7003A27A0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B86886BB208D56CB003A27A0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B86886BD208D56D0003A27A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B8929C4B208D160600B835EA /* Fortnite Dropzone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fortnite Dropzone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8929C4E208D160600B835EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8929C50208D160600B835EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +86,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86886BE208D56D0003A27A0 /* SystemConfiguration.framework in Frameworks */,
+				B86886BC208D56CB003A27A0 /* StoreKit.framework in Frameworks */,
+				B86886BA208D56C7003A27A0 /* MessageUI.framework in Frameworks */,
+				B86886B8208D56C1003A27A0 /* CoreMedia.framework in Frameworks */,
+				B8660A4A208D582500D130F6 /* GoogleMobileAds.framework in Frameworks */,
+				B86886B6208D56BA003A27A0 /* CoreTelephony.framework in Frameworks */,
+				B86886B4208D56B4003A27A0 /* CoreGraphics.framework in Frameworks */,
+				B86886B2208D56A4003A27A0 /* AudioToolbox.framework in Frameworks */,
+				B86886B0208D569F003A27A0 /* AdSupport.framework in Frameworks */,
+				B86886AE208D569A003A27A0 /* AVFoundation.framework in Frameworks */,
+				B86886AB208D5693003A27A0 /* EventKit.framework in Frameworks */,
+				B86886AC208D5693003A27A0 /* EventKitUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +118,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B86886A8208D5693003A27A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B86886BD208D56D0003A27A0 /* SystemConfiguration.framework */,
+				B86886BB208D56CB003A27A0 /* StoreKit.framework */,
+				B86886B9208D56C7003A27A0 /* MessageUI.framework */,
+				B86886B7208D56C1003A27A0 /* CoreMedia.framework */,
+				B86886B5208D56BA003A27A0 /* CoreTelephony.framework */,
+				B86886B3208D56B4003A27A0 /* CoreGraphics.framework */,
+				B86886B1208D56A4003A27A0 /* AudioToolbox.framework */,
+				B86886AF208D569F003A27A0 /* AdSupport.framework */,
+				B86886AD208D5699003A27A0 /* AVFoundation.framework */,
+				B86886A9208D5693003A27A0 /* EventKit.framework */,
+				B86886AA208D5693003A27A0 /* EventKitUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8929C42208D160600B835EA = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +143,7 @@
 				B8929C65208D160600B835EA /* Fortnite DropzoneTests */,
 				B8929C70208D160600B835EA /* Fortnite DropzoneUITests */,
 				B8929C4C208D160600B835EA /* Products */,
+				B86886A8208D5693003A27A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +167,7 @@
 				B8929C81208D1D3F00B835EA /* MainViewController.swift */,
 				B8929C7F208D193B00B835EA /* BurbankBigCondensed-Bold.otf */,
 				B8929C58208D160600B835EA /* Assets.xcassets */,
+				B8660A48208D580600D130F6 /* GoogleMobileAds.framework */,
 				B8929C5A208D160600B835EA /* LaunchScreen.storyboard */,
 				B8929C5D208D160600B835EA /* Info.plist */,
 				B8929C55208D160600B835EA /* Fortnite_Dropzone.xcdatamodeld */,
@@ -443,6 +499,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAQY4YN2JJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fortnite\\ Dropzone",
+					"$(PROJECT_DIR)/Fortnite\\ Dropzone",
+				);
 				INFOPLIST_FILE = "Fortnite Dropzone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-Dropzone";
@@ -457,6 +520,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WAQY4YN2JJ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Fortnite\\ Dropzone",
+					"$(PROJECT_DIR)/Fortnite\\ Dropzone",
+				);
 				INFOPLIST_FILE = "Fortnite Dropzone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FDZ.Fortnite-Dropzone";
